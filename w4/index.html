@@ -79,35 +79,71 @@
             </section>
             <figure>
                 <figcaption>An example of a 4x4 sudoku puzzle with difficulty level easy:</figcaption>
-                <table>
+                <table class=sudokuTable>
                     <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td></td>
-                            <td></td>
-                            <td>4</td>
+                        <tr class=sudokuCell>
+                            <td class=sudokuCell>1</td>
+                            <td class=sudokuCell></td>
+                            <td class=sudokuCell></td>
+                            <td class=sudokuCell>4</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td>4</td>
-                            <td></td>
-                            <td>2</td>
+                            <td class=sudokuCell></td>
+                            <td class=sudokuCell>4</td>
+                            <td class=sudokuCell></td>
+                            <td class=sudokuCell>2</td>
                         </tr>
                         <tr>
-                            <td>2</td>
-                            <td>1</td>
-                            <td>4</td>
-                            <td></td>
+                            <td class=sudokuCell>2</td>
+                            <td class=sudokuCell>1</td>
+                            <td class=sudokuCell>4</td>
+                            <td class=sudokuCell></td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td>3</td>
-                            <td>2</td>
-                            <td>1</td>
+                            <td class=sudokuCell></td>
+                            <td class=sudokuCell>3</td>
+                            <td class=sudokuCell>2</td>
+                            <td class=sudokuCell>1</td>
                         </tr>
                     </tbody>
                 </table>
             </figure>
+
+            <figure>
+                <figcaption>Difficulty Levels:</figcaption>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Difficulty</th>
+                            <th scope="col">Filled Cells</th>
+                            <th scope="col">Time est.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Easy</td>
+                            <td>35-45</td>
+                            <td><time datetime="PT10M">10</time>-<time datetime="PT15M">15 minutes</time></td>
+                        </tr>
+                        <tr>
+                            <td>Medium</td>
+                            <td>30-35</td>
+                            <td><time datetime="PT15M">15</time>-<time datetime="PT25M">25 minutes</time></td>
+                        </tr>
+                        <tr>
+                            <td>Hard</td>
+                            <td>25-30</td>
+                            <td><time datetime="PT25M">25</time>-<time datetime="PT40M">40 minutes</time></td>
+                        </tr>
+                        <tr>
+                            <td>Expert</td>
+                            <td>20-25</td>
+                            <td><time datetime="PT40M">40 minutes</time></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </figure>
+
             <aside>
                 <h3>Can You Guess My Extreme Sudoku Times?</h3>
                 <details>

@@ -21,14 +21,32 @@ a:hover, a:active {
 
 table {
     border: 3px solid #eee;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     padding: 1rem;
 }
 
 tr, th, td, caption {
+    text-align: center;
     border: 1px solid #eee;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: .75rem;
+}
+
+.sudokuTable {
+    border: 3px solid #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+.sudokuCell {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid #eee;
+    font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     padding: .75rem;
 }
