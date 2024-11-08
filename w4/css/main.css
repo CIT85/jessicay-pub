@@ -3,20 +3,24 @@ html {
 }
 
 body {
-    background-color: #333;
+    background-color: #704C5E;
     color: whitesmoke;
 }
 
+mark {
+    background-color: #F1C8DB;
+}
+
 a {
-    color:aliceblue;
+    color:#93E1D8;
 }
 
 a:visited {
-    color:lightgray;
+    color:#F7B32B;
 }
 
 a:hover, a:active {
-    color: #eee;
+    color: #FDECEF;
 }
 
 table {
@@ -49,4 +53,13 @@ tr, th, td, caption {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     padding: .75rem;
+}
+
+.circle {
+    margin: 1rem;
+    margin-left: 2rem;
+    width: 50px;
+    height: 50px;
+    border: 1.25px solid #000;
+    border-radius: 25px;
 }
